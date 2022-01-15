@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=EB+Garamond:wght@500&family=Merriweather&family=Poppins:wght@700;800&family=Roboto+Slab:wght@500&display=swap');
+
+
+body{
+    background: #fffafa;
+    font-family: 'Arvo', serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+/* ---------- 
+    starting 1st part 
+            ----------- */
+
+.infh2{
+    
+    font-size: 30px;
+    margin-top: 114px;
+    margin-bottom: 130px;
+    margin-left:150px;
+    
+}
+.influencer{
+  
+    font-size: 60px;
+}
+.set-button button{
+ color:white;
+ border-radius: 35px;
+ background-color: #E02C6D;
+ padding:10px 25px;
+ font-size: 17px;
+ border-style: none;
+}
+  
+.details{
+    width: 1200px;
+    display: flex;
+   align-items: center;
+   
+   
+}
+
+.first-section-parallel{
+    display: flex;
+    justify-content:center ;
+  } 
+
+  
+  .products-title{
+      display: flex;
+      justify-content: center;
+      margin-top:300 px;
+      margin-bottom: 60px;
+      font-size: 30px;
+  }
+  
+  .products{
+      display: flex;
+      justify-content: center;
+      
+
+  }
+  .all-products{
+     /* width:324px;
+    height: 500px;  */
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 25px;
+     
+    margin-right: 0px;
+   
+    grid-column-gap: 25px;
+    align-items: center;
+}
+.product .product-pic img{
+    margin: 12px;
+    margin-top: 15px;
+}
+.product{
+   
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #ebe8e8 ;
+    
+
+} 
+.product-detail{
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+  .price-in-dollar{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 25px;
+  }
+  .fa-star.fa-star-half-alt{
+    font-size: 5px;
+}
+.fa-star-half-alt{
+    color:#FFC014;
+}
+.fa-star.filled{
+    color:#FFC014;
+}
+.product-paragraph{
+    color:#746a74;
+    margin-top: 2px;
+    font-size: 15px;
+}
+.for-see{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right:200px;
+    font-size:25px;
+    color:#E02C6D;
+    /* text-align: right; */
+   
+}
+
+
+
+/* ============
+     started footer 
+          =============*/
+.foot{
+    height:280px;
+    width:100%;
+    margin-right: 0px;
+    margin-left:0px;
+    color:white;
+     background-color: rgb(2, 8, 32); 
+    /* background-color: rgb(31, 71, 231); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.all-para{
+    text-align: center;
+}
+.p-1{
+    font-size: 28px;
+    font-weight: 30px;
+}
+.p2-3{
+    font-size:13px;
+}
+.fab.fa-instagram{
+    margin-right:20px;
+    font-size:23px;
+
+}
+.fas.fa-basketball-ball{
+    margin-right:20px;
+    font-size:23px;
+}
+.fab.fa-twitter{
+    margin-right:20px;
+    font-size:23px;
+}
+
+.fab.fa-youtube{
+    margin-right:20px;
+    font-size:23px;
+} 
+
+
